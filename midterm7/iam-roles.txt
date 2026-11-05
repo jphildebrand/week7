@@ -1,0 +1,57 @@
+PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> python iam-roles.py
+C:\Users\Jeffrey\AppData\Local\Python\pythoncore-3.14-64\python.exe: can't open file 'C:\\Users\\Jeffrey\\Documents\\MATC\\MATC-FALL26\\Advanced-Scripting\\Week7\\iam-roles.py': [Errno 2] No such file or directory
+PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> dir
+
+
+    Directory: C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7
+
+
+Mode                 LastWriteTime         Length Name                                         
+----                 -------------         ------ ----                                         
+d-----         11/5/2026   1:07 PM                midterm7                                     
+
+
+PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> cd .\midterm7\
+PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7\midterm7> py.exe .\iam-roles.py
+Roles created in the last 90 days:
+
+Role: c229377a5778894l16664034t1w379603-LabEksClusterRole-15am4x48DIFS    Created: 2026-09-08 20:33:00 UTC
+    Managed policy: AmazonEKSClusterPolicy
+    Managed policy: AmazonEKSNetworkingPolicy
+    Managed policy: AmazonEKSComputePolicy
+    Managed policy: AmazonEKSBlockStoragePolicy
+    Managed policy: AmazonEKSLoadBalancingPolicy
+
+Role: c229377a5778894l16664034t1w379603520-LabEksNodeRole-8xSl794f90XB    Created: 2026-09-08 20:33:00 UTC
+    Managed policy: AmazonEKS_CNI_Policy
+    Managed policy: AmazonEC2ContainerRegistryReadOnly
+    Managed policy: AmazonEKSWorkerNodePolicy
+
+Role: c229377a5778894l16664034t1w3796035207-LambdaSLRRole-Gc9YGQ2kL0t5    Created: 2026-09-08 20:32:59 UTC
+    Inline policy: createservicerole
+
+Role: EMR_Notebooks_DefaultRole    Created: 2026-09-08 20:33:30 UTC
+    Managed policy: AmazonElasticMapReduceEditorsRole
+    Managed policy: AmazonS3FullAccess
+
+Role: LabRole    Created: 2026-09-08 20:33:01 UTC
+    Managed policy: c229377a5778894l16664034t1w379603520767-VocLabPolicy3-kQJXgWKG1U2n
+    Managed policy: c229377a5778894l16664034t1w379603520767-VocLabPolicy2-E0ExLGGturMt
+    Managed policy: c229377a5778894l16664034t1w379603520767-VocLabPolicy1-hiWcw9f0Zeq2
+    Managed policy: AmazonSSMManagedInstanceCore
+    Managed policy: AmazonEKSClusterPolicy
+    Managed policy: AmazonEC2ContainerRegistryReadOnly
+    Managed policy: AmazonEKSWorkerNodePolicy
+
+Role: myRedshiftRole    Created: 2026-09-08 20:33:01 UTC
+    Managed policy: AmazonS3ReadOnlyAccess
+    Inline policy: RedshiftIAMLabPolicy
+
+Role: RedshiftRole    Created: 2026-09-08 20:33:01 UTC
+    Inline policy: Iam_Policies
+
+Role: RoleForLambdaModLabRole    Created: 2026-09-08 20:33:01 UTC
+    You are not authorized to list the managed policies for 'RoleForLambdaModLabRole'.
+    You are not authorized to list the inline policies for 'RoleForLambdaModLabRole'.
+
+PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7\midterm7>
