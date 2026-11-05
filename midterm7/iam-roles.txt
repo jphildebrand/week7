@@ -1,18 +1,3 @@
-PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> python iam-roles.py
-C:\Users\Jeffrey\AppData\Local\Python\pythoncore-3.14-64\python.exe: can't open file 'C:\\Users\\Jeffrey\\Documents\\MATC\\MATC-FALL26\\Advanced-Scripting\\Week7\\iam-roles.py': [Errno 2] No such file or directory
-PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> dir
-
-
-    Directory: C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7
-
-
-Mode                 LastWriteTime         Length Name                                         
-----                 -------------         ------ ----                                         
-d-----         11/5/2026   1:07 PM                midterm7                                     
-
-
-PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7> cd .\midterm7\
-PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7\midterm7> py.exe .\iam-roles.py
 Roles created in the last 90 days:
 
 Role: c229377a5778894l16664034t1w379603-LabEksClusterRole-15am4x48DIFS    Created: 2026-09-08 20:33:00 UTC
@@ -54,4 +39,3 @@ Role: RoleForLambdaModLabRole    Created: 2026-09-08 20:33:01 UTC
     You are not authorized to list the managed policies for 'RoleForLambdaModLabRole'.
     You are not authorized to list the inline policies for 'RoleForLambdaModLabRole'.
 
-PS C:\Users\Jeffrey\Documents\MATC\MATC-FALL26\Advanced-Scripting\Week7\midterm7>
