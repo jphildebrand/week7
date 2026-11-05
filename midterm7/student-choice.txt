@@ -1,0 +1,24 @@
+Security-related changes in us-east-1 over the last 7 days (local time)
+
+Time                 Event                          User                            Resources
+-------------------  -----------------------------  ------------------------------  ------------------------------------------------------------
+2026-11-05 12:51:27  PutRolePolicy                  sys170540                       vocareum-eventbridge
+2026-10-31 18:53:01  AttachRolePolicy               resource                        voc-cancel-cred, voclabs
+2026-10-31 16:36:34  CreateSecurityGroup            user3776093=Jeffrey_Hildebrand  vpc-067f4906ed7ae133f, Jeffrey-HTTP-SG, sg-0fbad6912cfe6546c
+2026-10-31 16:36:34  AuthorizeSecurityGroupIngress  user3776093=Jeffrey_Hildebrand  sg-0fbad6912cfe6546c
+2026-10-31 16:36:33  CreateSecurityGroup            user3776093=Jeffrey_Hildebrand  vpc-067f4906ed7ae133f, Jeffrey-SSH-SG, sg-09489d666cb8280bf
+2026-10-31 16:36:33  AuthorizeSecurityGroupIngress  user3776093=Jeffrey_Hildebrand  sg-09489d666cb8280bf
+2026-10-31 15:56:47  PutBucketPolicy                user3776093=Jeffrey_Hildebrand  jeffreys-advscripting-fall2026-class-project
+2026-10-31 15:56:47  DeleteBucketPublicAccessBlock  user3776093=Jeffrey_Hildebrand  jeffreys-advscripting-fall2026-class-project
+2026-10-31 15:29:04  PutBucketPolicy                user3776093=Jeffrey_Hildebrand  matc-1997-712-website-kvnkehbipm
+2026-10-31 15:29:04  DeleteBucketPublicAccessBlock  user3776093=Jeffrey_Hildebrand  matc-1997-712-website-kvnkehbipm
+2026-10-31 15:14:30  PutBucketPolicy                user3776093=Jeffrey_Hildebrand  matc-1997-712-jeffrey-sitename-test
+2026-10-31 15:14:29  DeleteBucketPublicAccessBlock  user3776093=Jeffrey_Hildebrand  matc-1997-712-jeffrey-sitename-test
+2026-10-31 15:14:18  PutBucketPolicy                user3776093=Jeffrey_Hildebrand  matc-1997-712-website-zddhcamvif
+2026-10-31 15:14:18  DeleteBucketPublicAccessBlock  user3776093=Jeffrey_Hildebrand  matc-1997-712-website-zddhcamvif
+2026-10-31 14:52:50  PutRolePolicy                  sys170540                       vocareum-eventbridge
+
+Total: 15 security-related changes
+      12  user3776093=Jeffrey_Hildebrand
+       2  sys170540
+       1  resource
