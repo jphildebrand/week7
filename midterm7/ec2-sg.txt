@@ -1,0 +1,16 @@
+Security group: default (sg-057f97dd2664890a1)
+    Port(s): All traffic          Source: security group sg-057f97dd2664890a1
+
+Security group: Jeffrey-HTTP-SG (sg-0fbad6912cfe6546c)
+    Port(s): TCP 80 (HTTP)        Range: 0.0.0.0/0
+        WARNING: Open to the public internet!
+
+Security group: Jeffrey-SSH-SG (sg-09489d666cb8280bf)
+    Port(s): TCP 22 (SSH)         Range: 71.86.216.174/32
+
+Security group: WebSG (sg-06f077d25813d9cb1)
+    Port(s): TCP 80 (HTTP)        Range: 0.0.0.0/0
+        WARNING: Open to the public internet!
+    Port(s): TCP 22 (SSH)         Range: 0.0.0.0/0
+        WARNING: Open to the public internet!
+
